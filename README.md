@@ -2,6 +2,10 @@
 
 This is the example Next.js frontend that interfaces with the Spring Cloud Function example application. This project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Configuring the connection with your own Azure Functions App
+Currently, the frontend wants to communicate with the Azure Function App that was configured in class by your lecturer.
+To make it send requests to your own Azure Function app that you deployed following the spring-cloud-function-example repository, you need to change the "AZURE_HELLO_URL" to the url that you get when you deployed your Azure Function app.
+
 ## Running locally
 
 To run the development server:
